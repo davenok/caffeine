@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+; Per https://answers.microsoft.com/en-us/windows/forum/all/disable-caps-lock-key/8083d4ee-721d-463f-aeda-630cd7f047c3
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,00,00,3a,00,00,00,00,00
